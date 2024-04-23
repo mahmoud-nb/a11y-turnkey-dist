@@ -22218,7 +22218,7 @@ const L2 = Rt("X", [
   ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
   ["path", { d: "m6 6 12 12", key: "d8bk6v" }]
 ]);
-var M2 = { BASE_URL: "/", MODE: "production", DEV: !1, PROD: !0, SSR: !1 };
+var M2 = { VITE_USER_NODE_ENV: "production", BASE_URL: "/", MODE: "production", DEV: !1, PROD: !0, SSR: !1 };
 const Ox = (x) => {
   let C;
   const S = /* @__PURE__ */ new Set(), k = (se, I) => {
@@ -22478,7 +22478,7 @@ function j2() {
 process.env.NODE_ENV === "production" ? z1.exports = U2() : z1.exports = j2();
 var F2 = z1.exports;
 const H2 = /* @__PURE__ */ Bx(F2);
-var Gx = { BASE_URL: "/", MODE: "production", DEV: !1, PROD: !0, SSR: !1 };
+var Gx = { VITE_USER_NODE_ENV: "production", BASE_URL: "/", MODE: "production", DEV: !1, PROD: !0, SSR: !1 };
 const { useDebugValue: V2 } = Qk, { useSyncExternalStoreWithSelector: P2 } = H2;
 let Ux = !1;
 const B2 = (x) => x;
@@ -22502,7 +22502,7 @@ const jx = (x) => {
   const C = typeof x == "function" ? N2(x) : x, S = (k, K) => I2(C, k, K);
   return Object.assign(S, C), S;
 }, A1 = (x) => x ? jx(x) : jx;
-var $2 = { BASE_URL: "/", MODE: "production", DEV: !1, PROD: !0, SSR: !1 };
+var $2 = { VITE_USER_NODE_ENV: "production", BASE_URL: "/", MODE: "production", DEV: !1, PROD: !0, SSR: !1 };
 function Y2(x, C) {
   let S;
   try {
